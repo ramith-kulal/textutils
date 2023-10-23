@@ -69,7 +69,7 @@ const YourComponent = (props) => {
     {text.length === 0 ? '0 words and 0 characters' : `${text.split(' ').length} words and ${text.length} characters`}
   </p>
   <p>
-    <b>{(0.008 * text.split(' ').length).toFixed(2)} </b>minutes of read
+    <b>{(0.008 * text.split(' ').length)} </b>minutes of read
   </p>
   <h4>Text Preview :</h4>
   <p>{text}</p>
