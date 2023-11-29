@@ -30,13 +30,13 @@ function App() {
       setMode('dark');
       document.body.style.backgroundColor = '#20242e';
       document.body.style.color = 'white';
-      showAlert("darkmode has been enabled", "success")
+      showAlert("darkmode has been enabled !", "success")
     }
     else {
       setMode('light');
       document.body.style.backgroundColor = 'white';
       document.body.style.color = 'black';
-      showAlert("light mode has been enabled", "success")
+      showAlert("light mode has been enabled !", "success")
     }
   }
   return (
